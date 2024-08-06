@@ -10,7 +10,7 @@ import org.apache.log4j.Logger;
 
 public class Configuration {
 
-	private static final Logger logger = LogManager.getLogger(TestBase.class);
+	private static final Logger logger = LogManager.getLogger(Configuration.class);
 	private static final String CONFIG_FILE_NAME = "config.properties";
 	private Properties configProperties;
 
