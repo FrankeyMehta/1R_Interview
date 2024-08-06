@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoProject" verbose="10">
+	<test name="Tests">
+		<!-- Enter group name to execute specific set of tests -->
+		<groups>
+			
+		</groups>
+		<!-- List individual packages to execute below -->
+		<classes>
+            <class name="com.sample.tests.NegativeTest" />
+            <!-- Add other test classes if needed -->
+        </classes>
+	</test>
+</suite>
+

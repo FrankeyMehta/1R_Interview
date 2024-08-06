@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Pizza Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="Parallel Test Suite(failed)">
+    <classes>
+      <class name="com.sample.tests.NegativeTest">
+        <methods>
+          <include name="checkResetbutton"/>
+          <include name="checkCreditCardRadiobutton"/>
+          <include name="checkCashonPickupRadiobutton"/>
+          <include name="beforeMethod"/>
+          <include name="init"/>
+          <include name="checkMissingName"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.sample.tests.NegativeTest -->
+      <class name="com.sample.tests.PositiveTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="init"/>
+          <include name="testPizzaType" invocation-numbers="0 1 2 3 4"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.sample.tests.PositiveTest -->
+    </classes>
+  </test> <!-- Parallel Test Suite(failed) -->
+</suite> <!-- Failed suite [Pizza Test] -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Pizza Test" parallel="classes" thread-count="2" preserve-order="true">
+
+	<test name="Parallel Test Suite">
+		<classes>
+			<class name="com.sample.tests.PositiveTest" />
+			<class name="com.sample.tests.NegativeTest" />
+		</classes>
+	</test>
+
+</suite>
